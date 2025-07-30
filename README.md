@@ -117,7 +117,7 @@ Follow these steps to set up **UniFORM** in a fresh, isolated environment:
     ```
 3. **Create a new virtual environment** 
     ```
-    $ conda create -n UniFORM-env python=3.8
+    $ conda create -n UniFORM-env python=3.10
     ```  
 4. **Activate the environment**  
     ```
