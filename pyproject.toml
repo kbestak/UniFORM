@@ -1,0 +1,28 @@
+[project]
+name = "UniFORM"
+version = "1.0.0"
+
+dependencies = [
+    "anndata",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "plotly",
+    "scikit-fda",
+    "scikit-learn",
+    "scipy",
+    "tqdm"
+]
+
+[project.urls]
+Homepage = "https://github.com/kunlunW/UniFORM/"
+
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
