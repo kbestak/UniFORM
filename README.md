@@ -125,7 +125,7 @@ Follow these steps to set up **UniFORM** in a fresh, isolated environment:
     ```
 5. **Install dependencies** 
     ```
-    $ pip install -r requirements.txt  
+    $ pip install .
     ```
 Once installation completes, choose your tutorial based on the normalization pipeline and input format:
 
